@@ -1,186 +1,195 @@
 # 🎬 TMDB Movies Analytics Dashboard | Power BI
 
 <p align="center">
-  <img src="images/0_overview.png" width="900"/>
+  <img src="images/0_overview.png" alt="TMDB Movies Dashboard Overview" width="900"/>
 </p>
 
-Progetto di Business Intelligence sviluppato in **Power BI** basato sul dataset **TMDB (The Movie Database)**, con integrazione di analisi preliminare in **SQL** per la fase di data preparation.
+<h3 align="center">Advanced Business Intelligence Project built with Power BI</h3>
 
-La dashboard consente di analizzare in modo strutturato la redditività dei film, i trend di mercato e l’impatto dei principali driver di business, come **budget, rating, generi, attori e registi**.
-
----
-
-## 🚀 Navigazione Rapida
+<p align="center">
+  End-to-end analytics solution focused on movie profitability, market trends, and performance drivers.
+</p>
 
 <p align="center">
   <a href="#-overview--trend">
-    <img src="https://img.shields.io/badge/Overview%20%26%20Trend-Visualizza-4F46E5?style=for-the-badge&logo=powerbi&logoColor=white" />
+    <img src="https://img.shields.io/badge/Overview%20%26%20Trend-Explore-4F46E5?style=for-the-badge&logo=powerbi&logoColor=white" alt="Overview & Trend"/>
   </a>
-  <a href="#-performance">
-    <img src="https://img.shields.io/badge/Performance-Visualizza-7C3AED?style=for-the-badge&logo=powerbi&logoColor=white" />
+  <a href="#-performance-analysis">
+    <img src="https://img.shields.io/badge/Performance%20Analysis-Explore-7C3AED?style=for-the-badge&logo=powerbi&logoColor=white" alt="Performance Analysis"/>
   </a>
   <a href="#-people--quality">
-    <img src="https://img.shields.io/badge/People%20%26%20Quality-Visualizza-111827?style=for-the-badge&logo=powerbi&logoColor=white" />
+    <img src="https://img.shields.io/badge/People%20%26%20Quality-Explore-111827?style=for-the-badge&logo=powerbi&logoColor=white" alt="People & Quality"/>
   </a>
 </p>
 
 ---
 
-## 📊 Executive Summary
+## 📖 Project Overview
 
-Il progetto analizza oltre **9.700 film (1904–2028)** con l’obiettivo di:
+This Business Intelligence project was developed in **Power BI** using the **TMDB (The Movie Database)** dataset, with preliminary exploration and data preparation performed in **SQL**.
 
-- comprendere le dinamiche economiche del settore cinematografico;
-- identificare i principali driver della redditività;
-- analizzare trend temporali e segmentazione per genere;
-- valutare l’impatto del capitale umano, in particolare attori e registi;
-- supportare decisioni data-driven attraverso KPI e visualizzazioni interattive.
+The dashboard provides a structured analysis of the movie industry, with a focus on:
 
----
+- **profitability**
+- **revenue performance**
+- **market trends over time**
+- **genre analysis**
+- **rating impact**
+- **actors and directors contribution**
 
-## 🎯 Obiettivi Analitici
-
-Le principali domande di business a cui il progetto risponde sono:
-
-- Quali film generano il maggior profitto?
-- Esiste una relazione tra rating e ROI?
-- In che modo il budget influenza il fatturato?
-- Quali generi sono più performanti?
-- Qual è il contributo di attori e registi ai risultati economici?
+The goal is to transform raw movie data into actionable insights through interactive dashboards, KPI monitoring, and visual storytelling.
 
 ---
 
-## 📌 KPI Monitorati
+## 🎯 Business Objectives
 
-- **Profitto Totale**
-- **Fatturato Totale**
-- **Profitto Medio per Film**
+This project was designed to answer key business questions such as:
+
+- Which movies generate the highest profit?
+- How does **budget** affect **revenue** and **profitability**?
+- Is there a relationship between **rating** and **ROI**?
+- Which genres perform best in economic terms?
+- How much do actors and directors influence movie success?
+- What trends can be identified across the years?
+
+---
+
+## 📊 Key Metrics Monitored
+
+The dashboard tracks the most relevant performance indicators, including:
+
+- **Total Profit**
+- **Total Revenue**
+- **Average Profit per Movie**
 - **ROI (Return on Investment)**
-- **Margine di Profitto (%)**
-- **Rating Medio**
-- **Numero Totale Film**
+- **Profit Margin (%)**
+- **Average Rating**
+- **Total Number of Movies**
 
 ---
 
 ## 🗄️ Data Preparation & SQL Analysis
 
-Prima dello sviluppo della dashboard in Power BI, è stata effettuata una fase di analisi esplorativa in SQL per:
+Before building the Power BI dashboard, an exploratory SQL phase was carried out to validate the dataset, define metrics, and prepare the data model.
 
-- validare la struttura del dataset;
-- definire KPI e metriche principali;
-- analizzare film, generi, attori e registi;
-- preparare i dati per la fase di modellazione e visualizzazione.
+### Main SQL analyses performed
 
-### Principali analisi SQL svolte
+- total movie count
+- movie distribution by year
+- top movies by revenue and profit
+- average rating by movie and genre
+- percentage of profitable movies
+- number of movies by genre
+- top actors and directors by production volume
+- movies with budget above average
 
-- conteggio totale dei film;
-- distribuzione dei film per anno;
-- top film per fatturato e profitto;
-- rating medio per film e per genere;
-- percentuale di film profittevoli;
-- numero di film per genere;
-- attori e registi con il maggior numero di produzioni;
-- film con budget superiore alla media.
+This phase helped define the analytical framework later implemented in Power BI.
 
 ---
 
-# 🧩 Struttura della Dashboard
+# 🧩 Dashboard Structure
 
 ---
 
 ## 🔹 Overview & Trend
 
 <p align="center">
-  <img src="images/0_overview.png" width="900"/>
+  <a href="images/0_overview.png" target="_blank">
+    <img src="images/0_overview.png" alt="Overview and Trend Dashboard" width="900"/>
+  </a>
 </p>
 
-### 🎯 Obiettivo
-Fornire una visione macro del mercato cinematografico e del suo andamento nel tempo.
+### 🎯 Purpose
+Provide a high-level view of the movie industry and its evolution over time.
 
-### 🔍 Cosa mostra
-- KPI principali per inquadrare il contesto generale;
-- evoluzione del numero di film per anno;
-- trend di produzione e ricavi;
-- andamento dei principali generi cinematografici;
-- top generi per fatturato e ROI.
+### 🔍 What this page shows
+- key KPIs for a general market overview
+- movie production trend by year
+- revenue and profitability patterns over time
+- top-performing genres
+- comparison of genres by revenue and ROI
 
-### 🧠 Insight principali
-- la produzione cinematografica mostra una crescita progressiva nel tempo;
-- alcuni generi concentrano gran parte del fatturato complessivo;
-- le preferenze del mercato evolvono, modificando il peso relativo dei generi.
+### 🧠 Key insights
+- movie production shows a long-term growth trend
+- a limited number of genres account for a large share of total revenue
+- market preferences evolve over time, changing the relative weight of genres
 
-### 💡 Valore della pagina
-Questa pagina consente una lettura immediata del contesto di business, utile per comprendere la dimensione del mercato e i suoi trend principali.
+### 💡 Business value
+This page offers a quick strategic overview of the market, helping users understand scale, direction, and macro-level performance drivers.
 
 ---
 
-## 🔹 Performance
+## 🔹 Performance Analysis
 
 <p align="center">
-  <img src="images/1_performance.png" width="900"/>
+  <a href="images/1_performance.png" target="_blank">
+    <img src="images/1_performance.png" alt="Performance Analysis Dashboard" width="900"/>
+  </a>
 </p>
 
-### 🎯 Obiettivo
-Analizzare i driver economici che determinano la redditività dei film.
+### 🎯 Purpose
+Analyze the main economic drivers behind movie profitability.
 
-### 🔍 Cosa mostra
-- waterfall chart per la scomposizione del profitto;
-- relazione tra **rating e ROI**;
-- relazione tra **budget e fatturato**;
-- evidenza dei **Top 3 film per profitto**.
+### 🔍 What this page shows
+- profit decomposition through a **waterfall chart**
+- relationship between **rating and ROI**
+- relationship between **budget and revenue**
+- highlight of the **Top 3 most profitable movies**
 
-### 🧠 Insight principali
-- il rating può influenzare positivamente il ROI, anche se la relazione non è perfettamente lineare;
-- budget elevati tendono a generare ricavi più alti, ma non garantiscono automaticamente maggiore efficienza;
-- alcuni film emergono come outlier per capacità di generare profitto eccezionale.
+### 🧠 Key insights
+- higher ratings may support stronger ROI, although the relationship is not perfectly linear
+- larger budgets often lead to higher revenues, but not always to better efficiency
+- some movies stand out as strong outliers in terms of profitability
 
-### 💡 Valore della pagina
-Questa sezione permette di comprendere quali fattori economici incidono maggiormente sui risultati, supportando valutazioni su investimenti e performance.
+### 💡 Business value
+This section supports performance evaluation and investment reasoning by showing which variables contribute most to financial success.
 
 ---
 
 ## 🔹 People & Quality
 
 <p align="center">
-  <img src="images/2_people.png" width="900"/>
+  <a href="images/2_people.png" target="_blank">
+    <img src="images/2_people.png" alt="People and Quality Dashboard" width="900"/>
+  </a>
 </p>
 
-### 🎯 Obiettivo
-Valutare l’impatto del capitale umano sulle performance del settore.
+### 🎯 Purpose
+Evaluate the impact of human capital and perceived quality on business performance.
 
-### 🔍 Cosa mostra
-- top 10 attori per fatturato generato;
-- top 10 registi per performance economica;
-- tabella di efficienza basata su rating e profitto medio;
-- analisi della relazione tra qualità percepita e risultati economici.
+### 🔍 What this page shows
+- top 10 actors by generated revenue
+- top 10 directors by economic performance
+- efficiency table based on average profit and rating
+- relationship between perceived quality and economic results
 
-### 🧠 Insight principali
-- alcuni attori e registi contribuiscono in modo consistente al successo economico;
-- il capitale umano rappresenta un driver strategico per la redditività;
-- esistono profili particolarmente efficienti in grado di combinare qualità e risultati economici.
+### 🧠 Key insights
+- some actors and directors contribute consistently to box office success
+- human capital is a strategic driver of profitability
+- certain profiles are particularly efficient in balancing quality and financial outcomes
 
-### 💡 Valore della pagina
-Questa pagina evidenzia come il successo dei film non dipenda solo da budget e mercato, ma anche dal contributo delle persone coinvolte.
-
----
-
-## 🛠 Tecnologie Utilizzate
-
-- **Power BI** → sviluppo dashboard e visualizzazione
-- **DAX** → calcolo KPI e metriche avanzate
-- **SQL** → analisi esplorativa e preparazione dati
-- **Data Modeling** → gestione relazioni tra tabelle
-- **Data Cleaning** → pulizia e strutturazione del dataset
+### 💡 Business value
+This page highlights that movie success depends not only on budget and market demand, but also on the people involved in production.
 
 ---
 
-## 📁 Struttura del Repository
+## 🛠 Tools & Technologies
+
+- **Power BI** — dashboard development and storytelling
+- **DAX** — KPI calculations and advanced measures
+- **SQL** — exploratory analysis and data preparation
+- **Data Modeling** — relationship management between entities
+- **Data Cleaning** — data quality improvement and structuring
+
+---
+
+## 📁 Repository Structure
 
 ```text
-TMDB-Movies-PowerBI-Dashboard
+TMDB-Movies-PowerBI-Dashboard/
 │
+├── README.md
 ├── movie.pbix
-├── README
 └── images/
     ├── 0_overview.png
     ├── 1_performance.png
