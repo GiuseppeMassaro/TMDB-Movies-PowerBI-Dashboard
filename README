@@ -1,0 +1,215 @@
+# 🎬 TMDB Movies Analytics Dashboard | Power BI
+
+Progetto di Business Intelligence realizzato con Power BI basato sul dataset TMDB (The Movie Database), integrato con analisi preliminare in SQL.
+
+La soluzione fornisce un’analisi completa delle performance del settore cinematografico, con focus su redditività, trend temporali e impatto dei principali driver di business.
+
+---
+
+## 📊 Executive Summary
+
+Il progetto analizza oltre **9.700 film (1904–2028)** con l’obiettivo di:
+
+- Comprendere le dinamiche economiche del settore cinematografico
+- Identificare i fattori che influenzano la redditività
+- Analizzare trend e performance nel tempo
+- Valutare l’impatto di attori e registi
+- Supportare decisioni data-driven
+
+---
+
+## 🎯 Obiettivi Analitici
+
+- Identificare i film più redditizi
+- Analizzare la relazione tra rating e ROI
+- Valutare l’impatto del budget sul fatturato
+- Individuare i generi più performanti
+- Analizzare il contributo di attori e registi
+
+---
+
+## 📌 KPI Monitorati
+
+- Profitto Totale  
+- Fatturato Totale  
+- Profitto Medio per Film  
+- ROI (Return on Investment)  
+- Margine di Profitto (%)  
+- Rating Medio  
+
+---
+
+# 🗄️ Data Preparation & SQL Analysis
+
+Prima dello sviluppo della dashboard, è stata effettuata un’analisi esplorativa tramite SQL per comprendere e strutturare i dati.
+
+---
+
+## 🎯 Obiettivi SQL
+
+- Comprensione del dataset  
+- Validazione dati  
+- Definizione KPI  
+- Preparazione alla visualizzazione  
+
+---
+
+## 📊 Analisi SQL Effettuate
+
+### 🔹 Conteggio Film
+
+- Totale film  
+- Film per anno  
+
+👉 Analisi della crescita nel tempo  
+
+---
+
+### 🔹 Top Film
+
+- Top 10 per fatturato  
+- Top 10 per profitto  
+
+👉 Identificazione best performer  
+
+---
+
+### 🔹 Rating
+
+- Media voti per film  
+
+👉 Analisi qualità percepita  
+
+---
+
+### 🔹 Profitto
+
+- Percentuale film profittevoli  
+
+👉 Efficienza del mercato  
+
+---
+
+### 🔹 Generi
+
+- Numero film per genere  
+- Fatturato medio per genere  
+- Rating medio per genere  
+
+👉 Analisi segmentazione mercato  
+
+---
+
+### 🔹 Attori e Registi
+
+- Attori con più film  
+- Registi con più film  
+
+👉 Analisi dei principali player  
+
+---
+
+### 🔹 Budget
+
+- Film con budget sopra la media  
+
+👉 Analisi strategie di investimento  
+
+---
+
+## 🧠 Ruolo della Fase SQL
+
+La fase SQL ha permesso di:
+
+- Definire le metriche utilizzate nella dashboard  
+- Verificare qualità e coerenza dei dati  
+- Costruire una base solida per Power BI  
+
+---
+
+# 🧩 Struttura della Dashboard
+
+---
+
+## 🔹 1. Overview & Trend
+
+### 🎯 Obiettivo
+Fornire una visione macro del mercato cinematografico
+
+### 📊 Contenuti
+- KPI principali  
+- Numero film nel tempo  
+- Trend fatturato  
+- Top generi  
+- Evoluzione generi  
+
+### 🧠 Insight
+- Crescita della produzione nel tempo  
+- Dominanza di alcuni generi  
+- Cambiamento preferenze  
+
+---
+
+## 🔹 2. Performance
+
+### 🎯 Obiettivo
+Analizzare i driver della redditività
+
+### 📊 Contenuti
+- Waterfall profitto  
+- Rating vs ROI  
+- Budget vs Fatturato  
+- Top 3 film  
+
+### 🧠 Insight
+- Rating influisce sul ROI  
+- Budget alto ≠ sempre profitto alto  
+- Presenza di outlier  
+
+---
+
+## 🔹 3. People & Quality
+
+### 🎯 Obiettivo
+Valutare l’impatto di attori e registi
+
+### 📊 Contenuti
+- Top attori  
+- Top registi  
+- Efficienza (rating + profitto)  
+- Scatter attori  
+
+### 🧠 Insight
+- Alcuni attori/registi sono costanti  
+- Il talento influisce sui risultati  
+
+---
+
+## 📸 Dashboard Preview
+
+### 🔹 Overview & Trend
+![Overview](images/0_Overview%20%26%20Trend.png)
+
+---
+
+### 🔹 Performance
+![Performance](images/1_Performance.png)
+
+---
+
+### 🔹 People & Quality
+![People & Quality](images/2_People%20%26%20Quality.png)
+
+---
+
+## 🛠 Tecnologie Utilizzate
+
+- Power BI  
+- DAX  
+- SQL  
+- Data Modeling  
+- Data Cleaning  
+
+---
+
+## 📁 Struttura Repository
