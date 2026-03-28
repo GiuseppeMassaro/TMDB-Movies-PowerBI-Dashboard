@@ -1,5 +1,5 @@
 # 🎬 TMDB Movies Analytics Dashboard | Power BI
-
+Progetto di Business Intelligence end-to-end finalizzato all’analisi del settore cinematografico, con l’obiettivo di trasformare dati complessi in insight strategici su redditività, trend e driver di performance tramite Power BI.
 <p align="center">
   <img src="images/0_overview.png" alt="Dashboard Overview" width="900"/>
 </p>
@@ -189,13 +189,14 @@ Introduce una prospettiva avanzata: non solo dati economici, ma anche il ruolo d
 - **Data Cleaning**  
 
 ---
-
+## 📥 Accesso alla Dashboard
+   📥 **Download Dashboard:** [Scarica il file Power BI](TMDB-Dashboard.pbix)
 ## 📁 Struttura del Repository
 
 ```text
 TMDB-Movies-PowerBI-Dashboard
 │
-├── movie.pbix
+├── TMDB-Dashboard.pbix
 ├── README.md
 └── images/
     ├── 0_overview.png
